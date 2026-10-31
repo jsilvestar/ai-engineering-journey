@@ -1,0 +1,12 @@
+[project]
+name = "Fitness-Plan-Groq"
+version = "0.1.0"
+description = "Fitness plan app using fastapi and Groq"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "groq>=1.2.0",
+    "streamlit>=1.66.1",
+    "uvicorn>=0.54.0",
+]
